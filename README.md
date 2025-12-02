@@ -1,31 +1,170 @@
-<img width="1909" height="1075" alt="main_menu_background" src="https://github.com/user-attachments/assets/0b29a276-c9c4-4f2f-a527-0312026925fc" />
+```markdown
+<img width="1200" alt="main_menu_background" src="https://github.com/user-attachments/assets/0b29a276-c9c4-4f2f-a527-0312026925fc" />
 
-Simple WASD or Arrow keys movement for the Player. They can also move diagonally. Dodge incoming traffic on highways and roads because who waits for the red light? Move swiftly through pavements and walkways through crowds and avoid falling into any manholes or ditches, meanwhile keeping a side eye on the clock.
+# UniThon — College Adventure Arcade Game
 
-I will probably develop the game more and make it more detailed with diversity, along with making the code more efficient through learning about the Godot Engine more. The game is available for both Windows Operating System and Linux. I have made most of the assets in the game using Open Source Software, LibreSprite along with some assets made by my colleagues. Also have recorded most of the voice lines, which I'm sure you will have a chuckle at. The ambience music is taken from a YouTube Video.
+UniThon is a fast-paced 2D arcade game built using the Godot Engine (GDScript).
+You play as a student trying to reach college by navigating through a busy city full of vehicles, crowds, and unexpected obstacles — all while racing against time!
 
-Changelog:
+---
 
-Build 1 for both Windows and Linux - 21st April 2025
-- Both executable files are released.
+## Table of Contents
 
-Build 2 for both Windows and Linux - 21st April 2025
-- Adjusted variable speed for all vehicles.
-- Extended the map.
-- Added props around the map.
+- [Key Features](#key-features)
+- [Tech Stack](#tech-stack)
+- [How to Run the Project](#how-to-run-the-project)
+- [Project Structure](#project-structure)
+- [Developer Notes](#developer-notes)
+- [Contributing](#contributing)
+- [Developed By](#developed-by)
 
-Build 3 for both Windows and Linux - 21st April 2025
-- Added variable speed to missing vehicles
+---
 
-Build 4 for both Windows and Linux - 23rd April 2025
-- Changed resolution of the game to 1920x1080 providing much better field of view and showcasing the size of the city.
-- Added a sound whenever a vehicle hits the player.
-- Changed death screen.
-- Added 2 new quotes to be displayed after player's death.
-- Added 6 new voiceovers whenever the player close-calls from an approaching vehicle.
-- Added world bounadaries to not let player go out of the bounds of the map.
-- Expanded the map and updated the diversity.
-- Changed the vehicle spawn coordinates giving more even spread on the road.
-- Updated texture of vehicles and collisions.
-- Some minor code optimizations.
-- Minor adjustment in pitch_scale for random pitch for voiceovers.
+## 🌟 Key Features
+
+### 🚶 Player Abilities
+
+Smooth Movement: Move in all four directions (WASD / Arrow Keys), including diagonal movement.
+
+Realistic Physics: Responsive controls with proper collision handling.
+
+Immersive Interactions: Experience voice lines during close calls and dynamic reactions to near-miss moments.
+
+### 🚗 Environment & Obstacles
+
+Traffic Challenge: Dodge cars and vehicles with varying speeds.
+
+Crowded Footpaths: Navigate through pedestrians and congested pathways.
+
+Environmental Hazards: Avoid manholes, ditches, and randomly placed obstacles.
+
+Expanding Map: More props, improved textures, realistic tilesets, and extended world boundaries.
+
+### 🔊 Audio & Visual Experience
+
+Hit Sound Effects: Audio feedback on collisions.
+
+Death Screen: A polished death screen with messages and effects.
+
+Voiceovers: Character voice lines recorded for gameplay immersion.
+
+Custom Assets: Many sprites created with LibreSprite, plus additional custom artwork.
+
+---
+
+## 🛠️ Tech Stack
+
+Engine: Godot (GDScript)
+
+Art: LibreSprite + custom assets
+
+Audio: Custom-recorded voice lines & ambience
+
+Platform: Windows & Linux support (via Godot export templates)
+
+---
+
+## 🚀 How to Run the Project
+
+Follow these steps to run UniThon on your system using Godot.
+
+### ✅ 1. Prerequisites
+
+Make sure you have:
+
+- Godot Engine (matching the version in project.godot)
+
+- A computer running Windows, Linux, or macOS
+
+- Basic understanding of running Godot projects
+
+### ✅ 2. Clone the Repository
+
+```powershell
+git clone https://github.com/Sana-ai-coder/UniThon.git
+cd UniThon
+```
+
+### ✅ 3. Open the Project in Godot
+
+Launch Godot.
+
+Click Import → Select the folder containing project.godot.
+
+Godot will load all scenes, scripts, assets, and configurations.
+
+### ✅ 4. Run the Game
+
+Open the main scene (usually inside the scenes/ directory).
+
+Click the Play ▶️ button in Godot.
+
+### ✅ 5. Exporting (Optional)
+
+To generate standalone executables:
+
+Install Godot Export Templates.
+
+Go to Project → Export.
+
+Choose Windows/Linux → Export.
+
+---
+
+## 📂 Project Structure
+
+UniThon/
+├── assets/       # Sprites, tilesets, props, visuals
+├── scenes/       # Game scenes (main scene, world, UI, menus)
+├── scripts/      # GDScript files (player movement, spawners, collisions)
+├── sounds/       # Hit sounds, ambience, voice lines
+├── project.godot # Godot project config
+├── icon.svg      # Game icon
+└── README.md     # Documentation
+
+---
+
+## 📝 Developer Notes
+
+Assets like props and characters are either created manually or contributed by teammates.
+
+Voice lines are recorded for immersion and stored under sounds/.
+
+Ambience music is sourced from YouTube — ensure proper attribution if distributing externally.
+
+The game is updated frequently with map expansions, new hazards, and code optimizations.
+
+---
+
+## 🤝 Contributing
+
+Fork the repository
+
+Create a new branch
+
+```powershell
+git checkout -b feature/AmazingImprovement
+```
+
+Commit your changes
+
+```powershell
+git commit -m "Add new feature"
+```
+
+Push the branch
+
+```powershell
+git push origin feature/AmazingImprovement
+```
+
+Open a Pull Request
+
+---
+
+## 👨‍💻 Developed By
+
+Sana-ai-coder & Team
+Special thanks to contributors for assets, voice lines, and testing.
+
+```
