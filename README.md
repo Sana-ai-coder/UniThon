@@ -1,4 +1,3 @@
-```markdown
 <img width="1200" alt="main_menu_background" src="https://github.com/user-attachments/assets/0b29a276-c9c4-4f2f-a527-0312026925fc" />
 
 # UniThon — College Adventure Arcade Game
@@ -166,5 +165,3 @@ Open a Pull Request
 
 Sana-ai-coder & Team
 Special thanks to contributors for assets, voice lines, and testing.
-
-```
